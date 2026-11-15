@@ -29,4 +29,6 @@ async def main():
         pygame.display.flip()
         clock.tick(fps)
 
+        await asyncio.sleep(0)
+
 asyncio.run(main())
